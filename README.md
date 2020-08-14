@@ -16,7 +16,8 @@
 
 
 # Websites
-https://chadtarpey615.github.io/week-two-homework/
+https://chadtarpey615.github.io/Chad-Tarpey-About-ME/
+
 
 # Contribution
 
