@@ -8,67 +8,71 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
+                <!-- navbar that's fixed at the top of the screen-->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-info bg-dark">
-        <a class="navbar-brand" href="#">About Me</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-info navbar-light bg-dark">
+        <a class="navbar-brand text-primary" href="#">Chad Tarpey</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+
+            </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="http://127.0.0.1:5501/Assets/index.html">Home <span
+                    <a class="nav-link text-primary" href="http://127.0.0.1:5501/Assets/index.html">Home <span
                             class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="http://127.0.0.1:5501/portfolio.html">Portfolio</a>
-                        <a class="dropdown-item" href="Assets/contact.html">Contact</a>
+                        <a class="dropdown-item" href="http://127.0.0.1:5501/Assets/contact.html">Contact</a>
                         <div class="dropdown-divider"></div>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="jumbotron">
-            <img class="img-fluid" src= "../Assets/Images/IMG_6139.jpeg" alt="picture of a family">
-            <h1 class="display-4">About Me!</h1>
-            <p class="lead">A about me of Chad Tarpey. Some information about his hobbies and social links.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
-        </div>
-
-        <div class="row">
-            <h1 class="col-lg-12 text-light">My Hobbies</h1>
+                            <!-- Beginning of the container div for the layout with bootstrap-->
+    <div class="container col-xs-12">
+        <header>
+            <div class="jumbotron col my-5 bg-muted">
+                <img class="img-fluid" src="../Assets/Images/IMG_6139.jpeg" alt="picture of my family">
+                <h1 class="display-4">About Me!</h1>
+                <p class="lead">Hi my name is Chad Tarpey. I'm a student to become a Full-Stack-Developer.
+                    I live in Gallatin, TN
+                </p>
+                <hr class="my-4">
+                <p>I'm working now as a full time low voltage residential installer in the greater Nashville area.
+                </p>                
+            </div>
+        </header>
+        <div class="row"> 
+            <h1 class="col-lg-12 text-dark">My Hobbies</h1>
         </div>
         <div class="container-fluid">
-
+                        <!-- Using cards -->
             <div class="row">
                 <div class="col-lg-6 my-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card bg-muted" style="width: 24rem;">
                         <img src="../Assets/Images/golf.jpeg" class="card-img-top" alt="picture of playing golf">
                         <div class="card-body">
                             <h5 class="card-title">Playing Golf</h5>
@@ -77,14 +81,15 @@
                                 cumque eum, sequi,
                                 a nobis molestiae sint, quaerat quam expedita cum corrupti.
                                 Id, in debitis aspernatur velit quasi placeat.</p>
-                            <a href="https://www.w3schools.com/html/html_basic.asp"
-                                class="btn btn-dark stretched-link">w3schools for HTML</a>
+                            <a href="https://www.globalgolf.com/" class="btn btn-dark stretched-link">Global Golf
+                                website</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 my-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../Assets/Images/fishing.jpeg" class="card-img-top" alt="picture of a boat with people fishing out of it ">
+                    <div class="card" style="width: 24rem;">
+                        <img src="../Assets/Images/fishing.jpeg" class="card-img-top"
+                            alt="picture of a boat with people fishing out of it ">
                         <div class="card-body">
                             <h5 class="card-title">Going Fishing</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius
@@ -92,8 +97,8 @@
                                 cumque eum, sequi,
                                 a nobis molestiae sint, quaerat quam expedita cum corrupti.
                                 Id, in debitis aspernatur velit quasi placeat.</p>
-                            <a href="https://www.w3schools.com/html/html_basic.asp"
-                                class="btn btn-dark stretched-link">w3schools for HTML</a>
+                            <a href="https://en.wikipedia.org/wiki/Fishing" class="btn btn-dark stretched-link">
+                                fishing's wiki page</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +106,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6 my-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 24rem;">
                         <img src="../Assets/Images/nfl.jpeg" class="card-img-top" alt="NFL logo">
                         <div class="card-body">
                             <h5 class="card-title">Watching NFL</h5>
@@ -110,14 +115,14 @@
                                 cumque eum, sequi,
                                 a nobis molestiae sint, quaerat quam expedita cum corrupti.
                                 Id, in debitis aspernatur velit quasi placeat.</p>
-                            <a href="https://www.nfl.com/"
-                                class="btn btn-dark stretched-link">NFL website</a>
+                            <a href="https://www.nfl.com/" class="btn btn-dark stretched-link">NFL website</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 py-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../Assets/Images/coding.jpeg" class="card-img-top" alt="picture of computer programming">
+                    <div class="card" style="width: 24rem;">
+                        <img src="../Assets/Images/coding.jpeg" class="card-img-top"
+                            alt="picture of computer programming">
                         <div class="card-body">
                             <h5 class="card-title">Computer Programming</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius
@@ -130,44 +135,30 @@
                         </div>
                     </div>
                 </div>
-            </div>   
-          
-        </div>
-        <div class="row">
-            <div class="col-md-6 my-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">My LinkedIn</h5>
-                  <p class="card-text">A link to my LinkedIn page!</p>
-                  <a href="https://www.linkedin.com/in/chad-tarpey-a276511a3/" class="btn btn-dark">Chad's LinkedIn</a>
-                  <img src="../Assets/linked.jpeg" alt="linkedin logo">
-                </div>
-              </div>
             </div>
-            <div class="col-md-6 my-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">GitHub</h5>
-                  <p class="card-text">My GitHub with all of my projects and Repositories</p>
-                  <a href="https://github.com/chadtarpey615?tab=repositories" class="btn btn-dark">Chad's GitHub</a>
-                  <img src="../Assets/Images/github.png" alt="GitHub logo">
-                </div>
-              </div>
-            </div>
-          </div>
 
+        </div>
+                            
+                                
+                <!-- Fixed footer at bottom of the screen-->
+        <footer>
+            <nav class="navbar fixed-bottom navbar-light bg-dark align-top">
+                <span class="navbar-text text-primary">
+                    Thank You For Visiting My About Me Page!!!
+                </span>
+            </nav>
+        </footer>
     </div>
 
 
 
 
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
 </html>
-

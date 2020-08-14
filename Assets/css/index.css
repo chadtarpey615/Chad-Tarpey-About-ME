@@ -1,0 +1,14 @@
+body {
+    background: url(https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer, .span {
+  display:Inline-block;
+  padding: 30px 20px 5px 7px;   
+}
+
+
