@@ -1,4 +1,4 @@
-![project](assets/images/chad'sabout-me.png)
+![project](./Assets/Images/chad'sabout-me.png)
 # Chad Tarpey 
 
 # ABOUT ME PORTFOLIO 
