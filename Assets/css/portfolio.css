@@ -11,8 +11,8 @@ img {
 .header {
     padding: 70px;
     padding-top: -10px;
-    background:#c7d8b8;
-    color: grey;
+    background: grey;
+    color: black;
     margin-top: 10px;
     height: 300px;
 }
@@ -29,7 +29,7 @@ h1 {
 
 .side {
     flex: 30%;
-    background-color: grey;
+    background-color:grey;
     padding: 20px;
     font-size: 30px;
     border-style: groove;
@@ -73,8 +73,9 @@ a {
     color: black;
 }
 
-@media screen and (max-width: 700px) {
-    .row, .side {
+@media screen and (max-width: 950px) {
+    .row, .side  {
         flex-direction: column;
+        font-size: 20px;
     }
 }
