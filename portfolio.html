@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=
     , initial-scale=1.0">
-  <title>Document</title>
+  <title>PortFolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/a8e2c0dea0.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
   <link rel="stylesheet" href="./Assets/css/portfolio.css">
 
 </head>
@@ -23,14 +24,23 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ol class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li>
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-      </ul>
+        <li>
+          <a class="nav-link" href="https://github.com/chadtarpey615?tab=repositories">GitHub</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://www.linkedin.com/in/chad-tarpey-a276511a3/">LinkedIn</a>
+        </li>
+        <li>
+          <a class="nav-link" href="Assets/Images/Chad Tarpey resume.pdf">My Resume</a>
+        </li>
+      </ol>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
@@ -38,92 +48,74 @@
     </div>
   </nav>
 
-  <!-- Start of the container for the bootstrap-->
-  <div class="container">
-    <div class="jumbotron jumbo">
-      <h1 class="display-4">Chad Tarpey's PortFolio</h1>
-      <p class="lead">This a Portfolio of all the programs I've used for my projects so far.</p>
-      <hr class="my-4">
-    </div>
-    <div class="jumbotron jumbotron-fluid bg-white">
-      <div class="container">
-        <h1 class="display-4">My Projects</h1>
-        <p class="lead">Here are a few programs that I have used.</p>
-      </div>
-      <div class="row d-none d-lg-flex">
-        <h2 class="col-lg-4">HTML</h2>
-        <h2 class="col-lg-4">CSS</h2>
-        <h2 class="col-lg-4">BOOTSTRAP</h2>
+  <div class="header">
+    <h1 class="display-4">Chad Tarpey's PortFolio</h1>
+    <br>
+    <br>
+    <br>
+    <h1>My Projects</h1>
+  </div>
 
-      </div>
-      <div class="row border justify-content-between">
-        <!-- HTML card-->
-        <div class="col-md-2 col-lg-4 py-2">
-          <div class="card" style="width: 20rem;">
-            <img src="Assets/Images/html2.png" class="card-img-top" alt="picture of HTML 5">
-            <div class="card-body">
-              <h5 class="card-title">HTML 5</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quisquam cumque
-                eum,
-                sequi,
-                a nobis molestiae sint, quaerat quam expedita cum corrupti.
-                Id, in debitis aspernatur velit quasi placeat.</p>
-              <a href="https://www.w3schools.com/html/html_basic.asp" class="btn btn-primary stretched-link">w3schools
-                for
-                HTML</a>
-            </div>
-          </div>
-        </div>
-        <!-- CSS card-->
-        <div class="col-md-2 col-lg-4 py-2">
-          <div class="card" style="width: 20rem;">
-            <img src="Assets/Images/css.jpeg" class="card-img-top" alt="picture of CSS">
-            <div class="card-body">
-              <h5 class="card-title">CSS</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium beatae delectus
-                sunt,
-                quas rem, similique earum cum necessitatibus temporibus harum
-                sed itaque, quam suscipit. Debitis rerum qui numquam cumque!</p>
-              <a href="https://www.w3schools.com/css/" class="btn btn-primary stretched-link">w3schools for CSS</a>
-            </div>
-          </div>
-        </div>
-        <!-- Bootstrap card-->
-        <div class="col-md-2 col-lg-4 py-2">
-          <div class="card" style="width: 22rem;">
-            <img src="Assets/Images/bootstrap.png" class="card-img-top" alt="Picture of bootstrap 4">
-            <div class="card-body">
-              <h5 class="card-title">BOOTSTRAP 4</h5>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut libero, quaerat
-                voluptates
-                quibusdam qui voluptas, totam quisquam dicta praesentium asperiores deserunt itaque. Provident illum
-                totam quas?</p>
-
-              <a href="https://getbootstrap.com/" class="btn btn-primary stretched-link">Go to bootstrap</a>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
+  <div class="row">
+    <div class="side">
+      <h2>First Project</h2>
+      <p> My first group project in class. The subject of this project is wrapped around Marvel
+        & DC superHeroes.Using three api calls to get stats, gifs, and movies onto the screen that is created
+        dynamically
+        with JQUERY</p>
+      <a href=" https://chadtarpey615.github.io/Super-Heroes/"><i class="fab fa-github"></i>Click here to see the deployed version</a>
+      <a href="https://github.com/chadtarpey615/Super-Heroes"><i class="fab fa-github"></i>Click here to see the github repository</a>
     </div>
 
+    <div class="project-one">
 
+      <img src="assets/Images/project1.png" alt="a screen shot of my first project ">
 
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Second Project</h2>
+      <p>Weather Dashboard is a app that will let you search for a city and display the current
+        weather.
+        It will also show you the future forecast for the next five days as well.
+        You will also get wind speed, uv index, and humidity from the ajax call using the open weather map api call.
+      </p>
+    <a href="https://chadtarpey615.github.io/Weather-Dashboard/"> <i class="fab fa-github"></i> Click here to see the deployed version</a>
+      <a href="https://github.com/chadtarpey615/Weather-Dashboard"><i class="fab fa-github"></i>Click here to see the github repository</a>
+    </div>
+    <div class="project-two">
+
+      <img src="Assets/Images/weather.png" class="card-img-top" alt="picture of my weather dashboard">
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Third Project</h2>
+      <p> A day planner app this display a schedule of the current workday. Where you can add and remove todo items for
+        the day.
+        With the use of HTML, CSS, JavaScript, JQuery, and moment.js. Adding classes for the current, past, future hour
+        to let you know if the todo list
+        is coming up, past, or at the current time. </p>
+      <a href="https://chadtarpey615.github.io/work-day-scheduler/"><i class="fab fa-github"></i>Click here to see the deployed version</a>
+      <a href="https://github.com/chadtarpey615/work-day-scheduler"><i class="fab fa-github"></i>Click here to see the github repository</a>
+    </div>
+
+    <div class="project-three">
+
+      <img src="assets/Images/dayplanner.gif" alt="a screen shot of my first project ">
+
+    </div>
   </div>
 
 
 
 
 
-
-
-
-
-
-
-
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

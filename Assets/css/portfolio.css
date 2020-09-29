@@ -2,8 +2,79 @@
     padding-top: 20px;
 }
 
-
-.row {
-    padding-bottom: 20px;
+img {
+    justify-content: flex-end;
+    width: 100%;
 }
 
+
+.header {
+    padding: 70px;
+    padding-top: -10px;
+    background:#c7d8b8;
+    color: grey;
+    margin-top: 10px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: grey;
+    padding: 20px;
+    font-size: 30px;
+    border-style: groove;
+}
+
+.project-one, .project-two, .project-three {
+    background-color: #aaa;
+    padding: 20px;
+    flex: 70%;
+    border-style: groove;
+
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #233444;
+    
+}
+
+.header a:link, a:visited, a:focus {
+    background: #1c4850;
+}
+.header a:hover {     
+    background: #aaa;
+  }
+
+.header li a {
+    align-items: flex-start;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .side {
+        flex-direction: column;
+    }
+}
